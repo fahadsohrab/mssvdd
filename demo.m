@@ -45,7 +45,7 @@ predict_label1 = svmpredict(testlabels, RedTestdata1', Model);
 predict_label2 = svmpredict(testlabels, RedTestdata2', Model);
 
 %Decission1=AND Gate, making (AND GATE)i call it decission 1
-[Decission1,Decission2,Decission3,Decission4] = decissionmmsvdd(predict_label1,predict_label2);
+[Decission1,Decission2,Decission3,Decission4] = decissionmssvdd(predict_label1,predict_label2);
 eval(['predict_label=Decission' num2str(DecissionNumber) ';']);
 
 EVAL = Evaluate(testlabels,predict_label);
