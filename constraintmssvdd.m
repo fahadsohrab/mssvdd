@@ -1,5 +1,5 @@
 % % % % % % % % % % %General regularization Function for MMSSSVDD
-% ConsType = type of constraint used 0,1,2,3,4,5,6
+% ConsType = type of regularization (omega) used 0,1,2,3,4,5,6
 % Cval= Cval value from SVDD used to identify support vectors etc
 % Traindata = contains Data from different modes as cell {Traindata1;Traindata2;...}
 % Alphavector = contains corresponding alpha vectors {Alphavector1;Alphavector2;...}
