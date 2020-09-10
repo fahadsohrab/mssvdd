@@ -5,7 +5,7 @@ The codes are provided without any warranty or gurantee.
 see demo.m for example usage of the code.
 Please contact fahad.sohrab@tuni.fi for any issues.
 
-If you find this code useful in your research, please consider citing the following papers:
+If you find the code(s) useful in your research, please consider citing the following papers:
 
 @inproceedings{sohrab2018subspace,
   title={Subspace support vector data description},
