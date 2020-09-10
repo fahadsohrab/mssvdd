@@ -1,10 +1,11 @@
-# mssvdd
+#  Multimodal Subspace Support Vector Data Description
 This repository is for Multimodal Subspace Support Vector Data Description.
 The codes are provided as .m (matlab) files to be executed in matlab.
 The codes are provided without any warranty or gurantee.
 see demo.m for example usage of the code.
 Please contact fahad.sohrab@tuni.fi for any issues.
 
+# Citation
 If you find the code(s) useful in your research, please consider citing the following papers:
 
 @inproceedings{sohrab2018subspace,
@@ -23,5 +24,5 @@ If you find the code(s) useful in your research, please consider citing the foll
   year={2020}
 }
 
-# Test
+
 
