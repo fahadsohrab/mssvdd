@@ -6,7 +6,7 @@ see demo.m for example usage of the code.
 Please contact fahad.sohrab@tuni.fi for any issues.
 
 # Citation
-If you find the code(s) useful in your research, please consider citing the following papers:
+If you find this work useful in your research, please consider citing the following papers:
 
 @inproceedings{sohrab2018subspace,
   title={Subspace support vector data description},
