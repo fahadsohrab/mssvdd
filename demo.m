@@ -35,13 +35,12 @@ sigma=10^-3;    %For non-linear usage
 
 [Model,Q]=mssvdd(Traindata,trainlabels,maxIter,numofmodes,Cval,omega,Bta,eta,D,d);
 
-RedTestdata1=Q{1} * Testdata{1}; %Test Data1 after maping from D to d
-RedTestdata2=Q{2} * Testdata{2}; %Test Data2 after maping from D to d
+RedTestdata1=Q{1} * Testdata{1}; %Test Data1 after maping from D1 to d
+RedTestdata2=Q{2} * Testdata{2}; %Test Data2 after maping from D2 to d
 
 predict_label1 = svmpredict(testlabels, RedTestdata1', Model);
 predict_label2 = svmpredict(testlabels, RedTestdata2', Model);
 
-%Decission1=AND Gate, making (AND GATE)i call it decission 1
 [Decission1,Decission2,Decission3,Decission4] = decissionmssvdd(predict_label1,predict_label2);
 eval(['predict_label=Decission' num2str(DecissionNumber) ';']);
 
