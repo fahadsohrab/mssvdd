@@ -16,7 +16,8 @@ If you find this work useful in your research, please consider citing the follow
   year={2018},
   organization={IEEE}
 }
-
+```
+```text
 @article{sohrab2020multimodal,
   title={Multimodal subspace support vector data description},
   author={Sohrab, Fahad and Raitoharju, Jenni and Iosifidis, Alexandros and Gabbouj, Moncef},
