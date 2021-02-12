@@ -7,7 +7,7 @@ Please contact fahad.sohrab@tuni.fi for any issues.
 
 # Citation
 If you find this work useful in your research, please consider citing the following papers:
-
+```text
 @inproceedings{sohrab2018subspace,
   title={Subspace support vector data description},
   author={Sohrab, Fahad and Raitoharju, Jenni and Gabbouj, Moncef and Iosifidis, Alexandros},
@@ -23,6 +23,7 @@ If you find this work useful in your research, please consider citing the follow
   journal={Pattern Recognition},
   year={2020}
 }
+```
 
 
 
