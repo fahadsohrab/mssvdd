@@ -33,6 +33,10 @@ sigma=10^-3;    %For non-linear usage
 %For non-linear cases, apply NPT.m (for Non-linear projection trick) or
 %kernel_rbf.m (for kernel trick) on the data and then use MS-SVDD
 
+%Example of using NPT.m
+%[Traindata{1}, Testdata{1}] = NPT(Traindata{1}, Testdata{1}, sigma);
+%[Traindata{2}, Testdata{2}] = NPT(Traindata{2}, Testdata{2}, sigma);
+
 [Model,Q]=mssvdd(Traindata,trainlabels,maxIter,numofmodes,Cval,omega,Bta,eta,D,d);
 
 RedTestdata1=Q{1} * Testdata{1}; %Test Data1 after maping from D1 to d
