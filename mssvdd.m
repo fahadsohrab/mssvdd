@@ -12,7 +12,8 @@
 %         Q = Contains projection matrices for each modality, Q{modality1},Q{modality2}
 
 function [Model,Q]=mssvdd(Traindata,Trainlabel,maxIter,numofmodes,Cval,omega,Bta,eta,D,d)
-
+D{1}=size(Traindata{1},1);
+D{2}=size(Traindata{2},1);
 %Initialize the Q{i} for each modality
 for i=1:numofmodes
     tempQ = pca(Traindata{i}');
